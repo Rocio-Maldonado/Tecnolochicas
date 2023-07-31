@@ -1,10 +1,11 @@
 body {
     background-color: #F5F5F5;
-  
+
     font-family: 'Righteous', cursive;
 }
-header{
-    background-color: #516091;
+
+header {
+    background-color: #766082;
     color: #ffffff;
     padding: 1em;
     clear: left;
@@ -19,7 +20,8 @@ header{
     border-left: 0;
     border-right: 0;
 }
-.img_header{
+
+.img_header {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -32,10 +34,9 @@ header{
     border-bottom: 0;
     border-radius: 5%;
     box-shadow: 7px 7px 12px 0 rgba(0, 0, 0, 0.3);
-
 }
-.caracteristicas {
 
+.caracteristicas {
     text-align: center;
 }
 
@@ -58,8 +59,9 @@ li {
 
     color: #000000;
 }
-.nav{
-    background-color: #516091;
+
+.barra {
+    background-color: #766082;
     color: #ffffff;
     padding: 1em;
     clear: left;
@@ -68,23 +70,40 @@ li {
     font-family: 'Righteous', cursive;
     font-size: 30px;
     font-weight: bold;
-
     text-shadow: 2px 2px 4px #000000;
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    
+
 }
-a {
+
+a.barra {
     color: #ebceff;
     text-decoration: none;
 }
 
-
-
 p {
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
+    overflow: auto;
+}
+
+.mitologia_img {
+
+    margin-left: 30%;
+    display: flex-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+    float: inline-start;
+
+    border-radius: 5%;
+    box-shadow: 7px 7px 12px 0 rgba(0, 0, 0, 0.3);
+    width: 20%;
+    height: auto;
+
 }
 
 .info {
@@ -92,4 +111,25 @@ p {
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
+}
+
+.izquierda {
+    text-align: left;
+    color: #5d4c69;
+}
+
+.quintoSol_img {
+    display: flex-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    float: right;
+    border-radius: 5%;
+    box-shadow: 7px 7px 12px 0 rgba(0, 0, 0, 0.3);
+}
+.negritas{
+    font-weight: bold;
+}
+.galeria {
+    text-align: center;
 }
